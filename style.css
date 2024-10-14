@@ -3,6 +3,15 @@ html, body {
   width: 100%;
 }
 
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .login-form input{ 
+    width:50%;
+  }
+  
+  }
+
+
 @keyframes animate {
     0%{
         transform: translateY(0) rotate(0deg);
